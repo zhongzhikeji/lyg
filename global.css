@@ -1,0 +1,231 @@
+* {
+	box-sizing: border-box;
+}
+
+page {
+	background-color: #F7F8F9;
+	font-size: 28rpx;
+}
+
+page>view {
+	height: 100%;
+	overflow-y: scroll;
+}
+
+image {
+	width: 100%;
+	height: 100%;
+}
+
+.bg-fff {
+	background-color: #fff;
+}
+
+.bg-theme {
+	background-color: #048D3D !important;
+}
+
+/* CDN 服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
+@font-face {
+	font-family: 'iconfont';
+	/* Project id 3946545 */
+	src: url('//at.alicdn.com/t/c/font_3946545_oen97qkjd2j.woff2?t=1678547654804') format('woff2'),
+		url('//at.alicdn.com/t/c/font_3946545_oen97qkjd2j.woff?t=1678547654804') format('woff'),
+		url('//at.alicdn.com/t/c/font_3946545_oen97qkjd2j.ttf?t=1678547654804') format('truetype');
+}
+
+.iconfont {
+	font-family: "iconfont" !important;
+	font-size: 32rpx;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* .icon-xiala:before {
+	content: "\e624";
+} */
+
+.left-20 {
+	margin-left: 20rpx;
+}
+
+.top-30 {
+	margin-top: 30rpx;
+}
+
+.top-8 {
+	margin-top: 8rpx;
+}
+
+.top-12 {
+	margin-top: 12rpx;
+}
+
+.top-24 {
+	margin-top: 24rpx;
+}
+
+.top-110 {
+	margin-top: 110rpx;
+}
+
+.top-68 {
+	margin-top: 68rpx;
+}
+
+.page-padding {
+	padding: 26rpx;
+}
+
+.padding-10 {
+	padding: 10rpx;
+}
+
+.padding-content {
+	padding: 0 26rpx;
+}
+
+.row {
+	display: flex;
+}
+
+.row-between {
+	display: flex;
+	justify-content: space-between;
+}
+
+.row-around {
+	display: flex;
+	justify-content: space-around;
+}
+
+.row-end {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.center {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.align-center {
+	align-items: center;
+}
+
+.align-end {
+	align-items: flex-end;
+}
+
+.column-end {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
+.column-between {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.round {
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.radius-all {
+	border-radius: 100px;
+	overflow: hidden;
+}
+
+.radius-24 {
+	border-radius: 24rpx;
+	overflow: hidden;
+}
+
+.text-ellipsis-2 {
+	-webkit-line-clamp: 2;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.text-ellipsis-1 {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.text-size-32 {
+	font-size: 32rpx;
+}
+
+.text-size-24 {
+	font-size: 24rpx;
+}
+
+.text-size-28 {
+	font-size: 28rpx;
+}
+
+.text-color-theme {
+	color: #0E8144;
+}
+
+.text-color-grey {
+	color: #A5A8B6;
+}
+
+.text-color-red {
+	color: #EC1B0E;
+}
+
+.button {
+	background-color: #048D3D;
+	border-radius: 100px;
+	color: #fff;
+	height: 82rpx;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.button-dis {
+	background-color: #8bd8ab;
+	border-radius: 100px;
+	color: #fff;
+	height: 82rpx;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.box {
+	background-color: #fff;
+	border-radius: 16rpx;
+}
+
+.delete {
+	text-decoration: line-through;
+}
+
+.top-bg {
+	background-image: linear-gradient(#038E3D 80%, rgba(3, 142, 61, 0));
+}
